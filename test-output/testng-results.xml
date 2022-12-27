@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-27T14:50:10 IST" name="Default suite" finished-at="2022-12-27T14:50:19 IST" duration-ms="9003">
+  <suite started-at="2022-12-27T18:02:36 IST" name="Default suite" finished-at="2022-12-27T18:02:57 IST" duration-ms="21703">
     <groups>
     </groups>
-    <test started-at="2022-12-27T14:50:10 IST" name="Default test" finished-at="2022-12-27T14:50:19 IST" duration-ms="9003">
+    <test started-at="2022-12-27T18:02:36 IST" name="Default test" finished-at="2022-12-27T18:02:57 IST" duration-ms="21703">
       <class name="execution.Execute2">
-        <test-method signature="getWindow()[pri:0, instance:execution.Execute2@4466af20]" started-at="2022-12-27T14:50:10 IST" name="getWindow" finished-at="2022-12-27T14:50:19 IST" duration-ms="8894" status="PASS">
+        <test-method signature="getWindow()[pri:0, instance:execution.Execute2@37afeb11]" started-at="2022-12-27T18:02:36 IST" name="getWindow" finished-at="2022-12-27T18:02:57 IST" duration-ms="21605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getWindow -->
       </class> <!-- execution.Execute2 -->
+      <class name="execution.Execute">
+        <test-method signature="getAlert()[pri:0, instance:execution.Execute@72d1ad2e]" started-at="2022-12-27T18:02:57 IST" name="getAlert" finished-at="2022-12-27T18:02:57 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlert -->
+        <test-method signature="getradiobutton()[pri:0, instance:execution.Execute@72d1ad2e]" started-at="2022-12-27T18:02:57 IST" name="getradiobutton" finished-at="2022-12-27T18:02:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getradiobutton -->
+        <test-method signature="gettextbox()[pri:0, instance:execution.Execute@72d1ad2e]" started-at="2022-12-27T18:02:57 IST" name="gettextbox" finished-at="2022-12-27T18:02:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettextbox -->
+      </class> <!-- execution.Execute -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
